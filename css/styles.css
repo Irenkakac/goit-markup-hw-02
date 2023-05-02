@@ -16,7 +16,6 @@
 
 .logo-nav {
     font-family: 'Raleway', sans-serif;
-    Font-style: ExtraBold Font;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -135,7 +134,7 @@
 
 /*  Fourth Section  */
 .fourth-section {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 .team-main {
     font-family: 'Roboto', sans-serif;
@@ -148,7 +147,7 @@
     color: #2E2F42;
 }
 
-.team-list {
+.team-list-link {
     background-color: #FFFFFF;
 }
 
@@ -180,7 +179,6 @@
 }
 .below-link {
     font-family: 'Raleway', sans-serif;
-    Font-style: ExtraBold;
     Font-size: 18px;
     Line-height: 1.17;
     font-weight: 800;
@@ -197,7 +195,7 @@
     Line-height: 24px;
     Line-height: 128%;
     Letter-spacing: 2%;
-/*  color: F4F4FD;  */
+    color: F4F4FD; 
 }
 
 
@@ -236,7 +234,6 @@
     color: #2E2F42;
 }
 .txt-link {
-    Text-style: Body;
     font-family: "Roboto", sans-serif;
     Font-style: Regular;
     Font-size: 16px;
