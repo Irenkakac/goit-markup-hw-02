@@ -29,7 +29,16 @@
 .link {
     text-decoration: none;
 }
+.titel {
+    color: var(--second-text-color);
+    letter-spacing: 0.02em;
+}
 
+.text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
 
 /* Logo*/
 
