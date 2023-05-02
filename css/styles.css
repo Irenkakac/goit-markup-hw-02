@@ -50,14 +50,12 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--left-logo-color);
+    color: #4D5AE5;
 }
 .logo-color {
     color: #2E2F42;
 }
-.below {
-    color: var(--third-text-color);
-}
+
 
 /* MENU */
 
@@ -86,7 +84,7 @@
      line-height: 1.5;
      letter-spacing: 0.02em;
      Font-size: 16px;
-     color: var(--second-text-color);
+     color: #404BBF;
 }
 .contact-list:hover,
 .contact-list:focus {
@@ -95,7 +93,7 @@
 
 /*  First Section  */
 .first-section {
-    background-color: var(--secondary-background-color);
+    background-color: #2E2F42;
 }
 
 .main-name {
