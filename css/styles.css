@@ -214,9 +214,7 @@
     color: #4D5AE5;
 }
 
-.logo-color-below {
-    color: #F4F4FD;
-}
+
 .below-txt {
     font-family: 'Roboto', sans-serif;
     Font-style: Regular;
@@ -267,4 +265,8 @@
     Vertical-align: Top;
     Letter-spacing: 0.02em;
     color: #434455;
+}
+
+.logo-color-below {
+    color: #F4F4FD;
 }
