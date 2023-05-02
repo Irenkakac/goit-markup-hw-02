@@ -232,13 +232,11 @@
 
 .button-link {
     cursor: pointer;
-    Text-style: Button Text;
     font-family: "Roboto", sans-serif;
     Font-style: Medium;
     Font-size: 16px;
     font-weight: 500;
     Line-height: 1.5;
-    Align: Center;
     Vertical-align: Center;
     Letter-spacing: 0.04em;
     color: #4d5ae5;
@@ -251,13 +249,11 @@
 }
 
 .name-link {
-    Text-style: Header 3;
     font-family: "Roboto", sans-serif;
     Font-style: Medium;
     Font-size: 20px;
     font-weight: 500;
     Line-height: 1.2;
-    Align: Left;
     Vertical-align: Top;
     Letter-spacing: 0.02em;
     color: #2E2F42;
