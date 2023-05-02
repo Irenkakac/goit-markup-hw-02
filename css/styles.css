@@ -42,17 +42,21 @@
 
 /* Logo*/
 
-.logo-nav {
+.logo-nav,
+.below {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--left-logo-color);
 }
 .logo-color {
     color: #2E2F42;
+}
+.below {
+    color: var(--third-text-color);
 }
 
 /* MENU */
@@ -82,7 +86,7 @@
      line-height: 1.5;
      letter-spacing: 0.02em;
      Font-size: 16px;
-     color: #434455;
+     color: var(--second-text-color);
 }
 .contact-list:hover,
 .contact-list:focus {
@@ -91,7 +95,7 @@
 
 /*  First Section  */
 .first-section {
-    background-color: #2e2f42 ;
+    background-color: var(--secondary-background-color);
 }
 
 .main-name {
@@ -201,9 +205,7 @@
 
 /*   FOOTER  */
 
-.below {
-    background-color: #2e2f42 ;
-}
+
 .below-link {
     font-family: 'Raleway', sans-serif;
     Font-size: 18px;
