@@ -54,7 +54,6 @@
      line-height: 1.5;
      letter-spacing: 0.02em;
      Font-size: 16px;
-     Line-height: 128%;
      color: #434455;
 }
 .contact-list:hover,
@@ -134,8 +133,9 @@
 
 /*  Fourth Section  */
 .fourth-section {
-    background-color: #F4F4FD;
+    background-color:  #F4F4FD;
 }
+
 .team-main {
     font-family: 'Roboto', sans-serif;
     Font-style: Bold;
@@ -146,7 +146,6 @@
     text-transform: capitalize;
     color: #2E2F42;
 }
-
 .team-list-link {
     background-color: #FFFFFF;
 }
