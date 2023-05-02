@@ -4,34 +4,30 @@
     background-color: #FFFFFF;
 }
 
-.link {
+.list {
     list-style: none;
 }
-.list {
+.link {
     text-decoration: none;
 }
 
 
 /* Logo*/
 
-.logo-list {
-    font-family: 'Raleway', sans-serif;
-    Font-style: ExtraBold Font;
-    size: 18px;
-    Line-height: 21px;
-    Line-height: 99%;
-    Letter-spacing: 3%;
-    color: #4D5AE5;
-}
-.logo-list-second {
+.logo-nav {
     font-family: 'Raleway', sans-serif;
     Font-style: ExtraBold Font;
     font-size: 18px;
-    Line-height: 21px;
+    font-weight: 800;
+    line-height: 1.17;
     Line-height: 99%;
     Letter-spacing: 3%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo-color {
     color: #2E2F42;
-    
 }
 
 /* MENU */
@@ -40,9 +36,10 @@
     font-family: 'Roboto', sans-serif;
     Font-style: Medium;
     Font-size: 16px;
-    Line-height: 24px;
+    Line-height: 1.5;
     Line-height: 128%;
-    Letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    font-weight: 500;
     color: #2E2F42;
 }
 .menu-list:hover,
@@ -55,10 +52,10 @@
 .contact-list {
      font-family: 'Roboto', sans-serif;
      Font-style: normal;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
      Font-size: 16px;
-     Line-height: 24px;
      Line-height: 128%;
-     Letter-spacing: 2%;
      color: #434455;
 }
 .contact-list:hover,
@@ -67,28 +64,38 @@
 }
 
 /*  First Section  */
+.first-section {
+    background-color: #2e2f42 ;
+}
 
 .main-name {
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     Font-style: Bold;
     Font-size: 56px;
-    Line-height: 60px;
+    line-height: 1.07;
     Line-height: 91%;
-    Letter-spacing: 2%;
-/* color: #FFFFFF; */
+    letter-spacing: 0.02em;
+    color: #FFFFFF; 
 }
+
 
 .modal-open-btn {
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     Font-style: Medium;
     Font-size: 16px;
-    Line-height: 24px;
+    line-height: 1.5;
     Line-height: 128%;
-    
-    /*  color: #FFFFFF;  */
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;  
+    background-color: #4D5AE5;
 }
-
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+    background-color: #404BBF;
+}
 
 
 /*  Second Section  */
@@ -97,9 +104,10 @@
     font-family: 'Roboto', sans-serif;
     Font-style: Medium;
     Font-size: 20px;
-    Line-height: 24px;
+    line-height: 1.2;
     Line-height: 102%;
-    Letter-spacing: 2%;
+    font-weight: 500;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
@@ -107,9 +115,9 @@
     font-family: 'Roboto', sans-serif;
     Font-style: Regular;
     Font-size: 16px;
-    Line-height: 24px;
+    line-height: 1.5;
     Line-height: 128%;
-    Letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -120,24 +128,34 @@
     font-family: 'Roboto', sans-serif;
     Font-style: Bold;
     Font-size: 36px;
-    Line-height: 40px;
+    line-height: 1.11;
     Line-height: 95%;
-    Letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: #2E2F42;
 }
 
 
 
 /*  Fourth Section  */
-
+.fourth-section {
+    background-color: #F4F4FD;
+}
 .team-main {
     font-family: 'Roboto', sans-serif;
     Font-style: Bold;
     Font-size: 36px;
-    Line-height: 40px;
+    line-height: 1.11;
     Line-height: 95%;
-    Letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: #2E2F42;
+}
+
+.team-list {
+    background-color: #FFFFFF;
 }
 
 .team-name {
@@ -145,8 +163,9 @@
     Font-style: Medium;
     Font-size: 20px;
     Line-height: 24px;
-    Line-height: 102%;
-    Letter-spacing: 2%;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
@@ -154,33 +173,30 @@
     font-family: 'Roboto', sans-serif;
     Font-style: Regular;
     Font-size: 16px;
-    Line-height: 24px;
+    Line-height: 1.5;
     Line-height: 128%;
-    Letter-spacing: 2%;
+    Letter-spacing: 0.02em;
     color: #434455;
 }
 
 
 /*   FOOTER  */
 
+.below {
+    background-color: #2e2f42 ;
+}
 .below-link {
     font-family: 'Raleway', sans-serif;
     Font-style: ExtraBold;
     Font-size: 18px;
-    Line-height: 21px;
+    Line-height: 1.17;
     Line-height: 99%;
-    Letter-spacing: 3%;
+    font-weight: 800;
+    Letter-spacing: 0,03em;
+    text-transform: uppercase;
     color: #4D5AE5;
 }
-.below-link-second {
-    font-family: 'Raleway', sans-serif;
-    Font-style: ExtraBold;
-    Font-size: 18px;
-    Line-height: 21px;
-    Line-height: 99%;
-    Letter-spacing: 3%;
-/*  color: #F4F4FD; */
-}
+
 
 .below-txt {
     font-family: 'Roboto', sans-serif;
@@ -203,14 +219,32 @@
     font-family: 'Roboto', sans-serif;
     Font-style: Medium;
     Font-size: 16px;
-    Line-height: 24px;
+    Line-height: 1.5;
     Line-height: 128%;
-    Letter-spacing: 4%;
+    Letter-spacing: 0.04em;
+    font-weight: 500;
     color: #404BBF;
+    background-color: #F4F4FD;
 }
-
-.button-all {
-  /*  color: #FFFFFF;   */
+.below-link:hover,
+.below-link:focus {
+    background-color: #FFFFFF;
+}
+.button-link-all {
+        cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+        Font-style: Medium;
+        Font-size: 16px;
+        Line-height: 1.5;
+        Line-height: 128%;
+        Letter-spacing: 0.04em;
+        font-weight: 500;
+        color: #FFFFFF;
+        background-color: #404BBF;
+}
+.button-link-all:hover,
+.button-link-all:focus {
+    background-color: #404BBF;
 }
 
 
