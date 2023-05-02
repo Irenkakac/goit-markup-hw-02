@@ -42,7 +42,8 @@
 
 /* Logo*/
 
-.logo-nav {
+.logo-nav,
+.below-link {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -53,6 +54,9 @@
 }
 .logo-color {
     color: #2E2F42;
+}
+.logo-color-below {
+    color: #F4F4FD;
 }
 
 
@@ -263,22 +267,9 @@
     Font-style: Regular;
     Font-size: 16px;
     Line-height: 1.5;
-    Align: Left;
     Vertical-align: Top;
     Letter-spacing: 0.02em;
     color: #434455;
 }
 
-.below-link {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-}
 
-.logo-color-below {
-    color: #F4F4FD;
-}
