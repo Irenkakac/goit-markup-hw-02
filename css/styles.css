@@ -211,61 +211,49 @@
 
 /*  PORTFOLIO  */
 
-
-/* First Line  */
-
 .button-link {
     cursor: pointer;
-    font-family: 'Roboto', sans-serif;
+    Text-style: Button Text;
+    Font-family: Roboto;
     Font-style: Medium;
     Font-size: 16px;
+    font-weight: 500;
     Line-height: 1.5;
     Line-height: 128%;
+    Align: Center;
+    Vertical-align: Center;
     Letter-spacing: 0.04em;
-    font-weight: 500;
-    color: #404BBF;
+    color: #4d5ae5;
     background-color: #F4F4FD;
 }
-.below-link:hover,
-.below-link:focus {
-    background-color: #FFFFFF;
-}
-.button-link-all {
-        cursor: pointer;
-        font-family: 'Roboto', sans-serif;
-        Font-style: Medium;
-        Font-size: 16px;
-        Line-height: 1.5;
-        Line-height: 128%;
-        Letter-spacing: 0.04em;
-        font-weight: 500;
-        color: #FFFFFF;
-        background-color: #404BBF;
-}
-.button-link-all:hover,
-.button-link-all:focus {
+.button-link:hover,
+.button-link:focus {
+    color: #FFFFFF ;
     background-color: #404BBF;
 }
 
-
-.name-image {
-    font-family: 'Roboto', sans-serif;
+.name-link {
+    Text-style: Header 3;
+    Font-family: Roboto;
     Font-style: Medium;
     Font-size: 20px;
-    Line-height: 24px;
+    font-weight: 500;
+    Line-height: 1.2;
     Line-height: 102%;
-    Letter-spacing: 2%;
+    Align: Left;
+    Vertical-align: Top;
+    Letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.txt-images {
-    font-family: 'Roboto', sans-serif;
+.txt-link {
+    Text-style: Body;
+    Font-family: Roboto;
     Font-style: Regular;
     Font-size: 16px;
-    Line-height: 24px;
+    Line-height: 1.5;
     Line-height: 128%;
-    Letter-spacing: 2%;
+    Align: Left;
+    Vertical-align: Top;
+    Letter-spacing: 0.02em;
     color: #434455;
 }
-
-
-
